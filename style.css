@@ -29,8 +29,20 @@ p1 {
 .fundo {
   background: #6C63FF;
 }
-.inicio, final {
+.inicio {
   width: 100%;
+}
+.final {
+  width: 100%;
+}
+.aviao {
+  height: 100%;
+  width: 100%;
+}
+.conjunto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 
