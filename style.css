@@ -4,18 +4,33 @@ html, body {
 }
 h1 {
   color: #6C63FF;
-  
+  font-family: Poppins;
+  font-size: 36px;  
 }
 p {
   color:#9C9AB6;
   font-size: 14px;
+  font-family: Poppins;
 }
 p1 {
   font-size: 16px;
   color: #FFFFFF;
+  font-family: Poppins;
+  
 }
 .texto {
   background: #6C63FF;
-  
+  padding: 8px;
+  margin-left: 10%;
+  margin-right: 70%;
+  border-radius: 10px;
   
 }
+.fundo {
+  background: #6C63FF;
+}
+.inicio, final {
+  width: 100%;
+}
+
+
