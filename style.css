@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #6C63FF;
+  font-family: Poppins;
+  font-size: 36px;
+}
+
+p {
+  color: #9C9AB6;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+p1 {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: Poppins;
+
+}
+
+.texto {
+  background: #6C63FF;
+  padding: 8px;
+  margin-left: 10%;
+  margin-right: 70%;
+  border-radius: 10px;
+
+}
+
+.fundo {
+  background: #6C63FF;
+}
+
+.inicio {
+  width: 100%;
+}
+
+.final {
+  width: 100%;
+}
+
+.aviao {
+  height: 100%;
+  width: 100%;
+}
+
+.conjunto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.time {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.time-item {
+  margin-top: 1.18rem;
+  text-align: center;
+}
+
+.time-item-texto {
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+.time-item-numero {
+  font-size: 50px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.botao {
+  margin-top: 2rem;
+  border: 2px;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+  background: #6C63FF;
+  color: #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 0.1 rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+}
+
+.botao:hover {
+  border: 2px;
+  color: #6C83F9;
+  background: transparent;
+}
+
+.juntos {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+
