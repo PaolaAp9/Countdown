@@ -8,6 +8,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap"
         rel="stylesheet">
+  
 </head>
 
 <body>
@@ -15,10 +16,33 @@
 
     <div class="conjunto">
         <div class="componentes">
-            <h1>READY TO LAUNCH IN... </h1>
-            <p>Inscreva-se para saber mais sobre o lançamento</p>
+            <h1 class="juntos">READY TO LAUNCH IN... </h1>
           <div>
-             <button class="texto btn btn-primary" type="submit">Inscreva-se</button>
+            <div class="time">
+              <div class="time-item">
+                <p class="time-item-texto">Dias</p>
+                <p class="time-item-numero" id="days">00</p>
+            </div>
+               <div class="time-item">
+                <p class="time-item-texto">Horas</p>
+                <p class="time-item-numero" id="hours">00</p>
+            </div>
+               <div class="time-item">
+                <p class="time-item-texto">Minutos</p>
+                <p class="time-item-numero" id="minutes">00</p>
+            </div>
+              <div class="time-item">
+                <p class="time-item-texto">Segundos</p>
+                <p class="time-item-numero" id="seconds">00</p>
+            </div>
+            </div>
+            <div class="juntos">
+              <p>Inscreva-se para saber mais sobre o lançamento</p>
+            </div>
+            <div class="juntos">
+             <button class="botao" type="submit">Inscreva-se</button>
+            </div>
+              
           </div>
         </div>
       <div>
@@ -36,7 +60,7 @@
 
 
 
-    <script src="script.js"></script>
+  <script src="script.js" ></script>
 
     <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
